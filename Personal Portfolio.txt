@@ -15,7 +15,7 @@
         <ul>
           <li><a class="info" href="#welcome-section">About</a></li>
           <li><a class="info" href="#heading">Work</a></li>
-          <li><a class="info" href="#profile-link" target="_blank">Contact</a></li>
+          <li><a class="info" href="#profile-link">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -83,6 +83,11 @@
 ** end of undefined **
 
 ** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
 
 * {
   margin: 0;
