@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    width: 100%;
+    height: 50px;
+    background: #2c2e25;
+    position: fixed;
+    display: flex;
+    align-items: center;
+  }
+  
+  #navbar {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+  }
+  
+  #navbar ul {
+    float: right;
+    padding-right: 65px;
+  }
+  
+  #navbar ul li {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+  }
+  
+  .info {
+    padding-right: 60px;
+    font-family: 'Poppins', sans-serif;
+     font-size: 1.2em;
+     background: linear-gradient(315deg, #2d3436 0%, #d3d3d3 54%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  
+  #welcome-section {
+    margin: 0;
+    background: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+  }
+  
+  .name, .quote {
+    font-size: 3.5em;
+    margin-bottom: 0;
+    background: linear-gradient(315deg, #2d3436 0%, #d3d3d3 54%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-top: 350px;
+  }
+  
+  #welcome-section p, .author {
+    font-size: 1.5em;
+  }
+  
+  .name, .intro, .quote, .author {
+    text-align: center;
+    color: #b1b896;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #heading {
+    width: 100%;
+    height: 50vh;
+    background: #b1b896;
+  }
+  
+  #section-projects {
+    text-align: center;
+    font-family: "Source code pro", monospace;
+    padding-top: 250px;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #003f4e;
+  }
+  
+  
+  .container {
+    background-color: #b1b896;
+  }
+  
+  .body-description {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+     background: linear-gradient(315deg, #2d3436 0%, #d3d3d3 54%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 20%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    border-radius: 3%;
+  }
+  
+  .card-header {
+    text-align: center;
+    padding: 50px 10px;
+    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+    border-radius: 3%;
+  }
+  
+  .card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+    border-radius: 50px;
+  }
+  
+  #navbar ul li:hover {
+    transform: scale(1.5);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  .links {
+    width: 100%;
+    height: 56vh;
+    background: #303030;
+  }
+  
+  
+  .social-icons {
+    background-color: #303030;
+    width: 100%;
+    height: 46vh;
+  }
+  
+  ul.socialIcons {
+    padding: 0;
+    text-align: center;
+    
+  }
+  
+  .socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+  .socialIcons li a {
+    display: block;
+    padding: 0.5em;
+    min-width: 1.28571429em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em; /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+  }
+  
+  .socialIcons li i {
+    margin-right: 0.5em;
+  }
+  
+  .socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  
+  .socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+  }
+  
+  .socialIcons .github {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+  }
+  
+  .socialIcons .instagram {
+    background-color: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+  }
+  
+  .socialIcons .gmail {
+    background-color: #c92228;
+    box-shadow: 0 0 16px #c92228;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    #navbar{position:fixed;
+  }
