@@ -33,7 +33,7 @@
         
         <div class="card project-tile">
           <div class="card-header">
-            <h1 class="card-title">Technical Documentation</h1>
+            <h1 class="card-title">Technical <br>Documentation</h1>
           </div>
           <div class="card-body">
             <p class="body-description">Build a Technical Documentation Page</p>
